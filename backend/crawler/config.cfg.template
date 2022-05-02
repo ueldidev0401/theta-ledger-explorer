@@ -1,0 +1,41 @@
+{
+    "mongo": {
+        "uri": "",
+        "address": "localhost",
+        "port": 27017,
+        "dbName": "test"
+    },
+    "node": {
+        "address": "localhost",
+        "port": 16888
+    },
+    "log": {
+        "level": "debug"
+    },
+    "blockchain": {
+        "networkId": "test_chain",
+        "startHeight": 1
+    },
+    "accounting": {
+        "coinmarketcapApiKey": "COINMARKETCAP_API_KEY",
+        "walletAddresses": [
+            "2416",
+            "3822"
+        ]
+    },
+    "redis": {
+        "enabled": false, 
+        "isCluster": false,
+        "host": "127.0.0.1",
+        "port": 6379,
+        "password": "",
+        "family": 4,
+        "db": 0
+    },
+    "nodeCache": {
+        "enabled": false
+    },
+    "maxBlockPerCrawl": 2,
+    "retrieveTokenStartHeight": 0,
+    "defaultThetaChainID": "testnet"
+}
